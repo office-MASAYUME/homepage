@@ -1,0 +1,182 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+i {
+  color: #d3d3d3;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: a-otf-midashi-mi-ma31-pr6n, serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+header {
+  background-color: #000;
+  font-size: 3em;
+  padding: 0.5rem;
+}
+header ul li {
+  display: inline-block;
+}
+
+#mainvisual {
+  margin-top: 10vh;
+  padding-top: 27vw;
+  background-image: url(../images/mainvisual-yume.png);
+  background-size: cover;
+}
+#mainvisual .opening {
+  margin: 0 auto;
+  text-align: center;
+}
+#mainvisual .opening .first {
+  width: 54.4vw;
+}
+#mainvisual .opening .second {
+  width: 85.4vw;
+  margin-top: 3.8vw;
+}
+#mainvisual .opening .third {
+  width: 73.7vw;
+  margin-top: 5vw;
+}
+#mainvisual .menu {
+  width: 88.8vw;
+  margin: 22vh auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#mainvisual .menu li {
+  width: 19.9vw;
+}
+
+#profile {
+  background: #000;
+  margin-top: 10vw;
+  text-align: center;
+  color: #fff;
+  font-size: 1.3rem;
+  padding-bottom: 10vw;
+  background-image: url(../images/profile-bg.png);
+  background-size: cover;
+}
+#profile img {
+  margin-top: 10vw;
+  width: 90vw;
+  vertical-align: bottom;
+}
+#profile .box {
+  background-image: url(../images/profile-box.png);
+  background-size: cover;
+  width: 90vw;
+  margin: 0 auto;
+}
+#profile .box p {
+  margin: 0 auto;
+  padding: 32vw 0 0;
+  width: 82vw;
+  text-align: left;
+  line-height: 1.5;
+}
+#profile .box ul {
+  text-align: right;
+  padding-right: 0.3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+  font-size: 2em;
+}
+#profile .box ul li {
+  display: inline-block;
+}
+
+#portfolio {
+  background: #7d7b7b;
+  padding-top: 8vw;
+  padding-right: 8vw;
+  position: relative;
+}
+#portfolio img {
+  width: 33.8vw;
+  position: absolute;
+  top: 1.5vw;
+  right: 1.5vw;
+}
+
+#member {
+  background-color: #000;
+  background-image: url(../images/profile-bg.png);
+  background-size: cover;
+  padding: 8.88vw 0;
+}
+#member .box {
+  width: 93.8vw;
+  position: relative;
+}
+#member .box ul {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+}
+#member .box ul li {
+  display: inline-block;
+  font-size: 10vw;
+  margin-left: 2vw;
+}
+#member .box .ul {
+  left: 0;
+}
+#member .box + .box {
+  margin-top: 8.88vw;
+}
+#member .right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#guide {
+  padding: 8.88vw 3vw;
+  line-height: 1.5;
+}
+#guide p {
+  text-align: center;
+}
+#guide p + p {
+  margin-top: 1em;
+}
+#guide .left {
+  text-align: left;
+  font-size: 20px;
+}
+#guide .right {
+  text-align: right;
+  font-size: 20px;
+}
+#guide .lpButton {
+  margin-top: 10vw;
+  text-align: center;
+}
+#guide .lpButton img {
+  width: 88vw;
+}

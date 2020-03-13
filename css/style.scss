@@ -1,0 +1,209 @@
+//commonCss
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+i {
+  color: #d3d3d3;
+}
+
+
+//commonClassCss
+.hidden {
+  display: none;
+}
+
+// smallDevice
+body {
+  font-size: 1.5rem;
+  font-family: a-otf-midashi-mi-ma31-pr6n, serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+header {
+  background-color: #000;
+  font-size: 3em;
+  padding: 0.5rem;
+
+  ul {
+    li {
+      display: inline-block;
+    }
+  }
+}
+
+#mainvisual {
+  margin-top: 10vh;
+  padding-top: 27vw;
+  background-image: url(../images/mainvisual-yume.png);
+  background-size: cover;
+
+  .opening {
+    margin: 0 auto;
+    text-align: center;
+
+    .first {
+      width: 54.4vw;
+    }
+
+    .second {
+      width: 85.4vw;
+      margin-top: 3.8vw;
+    }
+
+    .third {
+      width: 73.7vw;
+      margin-top: 5vw;
+    }
+  }
+
+  .menu {
+    width: 88.8vw;
+    margin: 22vh auto 0;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      width: 19.9vw;
+    }
+  }
+}
+
+#profile {
+  background: #000;
+  margin-top: 10vw;
+  text-align: center;
+  color: #fff;
+  font-size: 1.3rem;
+  padding-bottom: 10vw;
+  background-image: url(../images/profile-bg.png);
+  background-size: cover;
+
+  img {
+    margin-top: 10vw;
+    width: 90vw;
+    vertical-align: bottom;
+  }
+
+  .box {
+    background-image: url(../images/profile-box.png);
+    background-size: cover;
+    width: 90vw;
+    margin: 0 auto;
+
+    p {
+      margin: 0 auto;
+      padding: 32vw 0 0;
+      width: 82vw;
+      text-align: left;
+      line-height: 1.5;
+    }
+
+    ul {
+      text-align: right;
+      padding-right: 0.3em;
+      padding-top: 0.5em;
+      padding-bottom: 0.2em;
+      font-size: 2em;
+
+      li {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+#portfolio {
+  background: #7d7b7b;
+  padding-top: 8vw;
+  padding-right: 8vw;
+  position: relative;
+
+  img {
+    width: 33.8vw;
+    position: absolute;
+    top: 1.5vw;
+    right: 1.5vw;
+  }
+
+  .instagram {}
+}
+
+#member {
+  background-color: #000;
+  background-image: url(../images/profile-bg.png);
+  background-size: cover;
+  padding: 8.88vw 0;
+
+  .box {
+    width: 93.8vw;
+    position: relative;
+
+    ul {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin-bottom: 1vw;
+      margin-right: 2vw;
+
+      li {
+        display: inline-block;
+        font-size: 10vw;
+        margin-left: 2vw;
+      }
+    }
+
+    .ul {
+      left: 0;
+    }
+  }
+
+  .box + .box {
+    margin-top: 8.88vw;
+  }
+
+  .right {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+#guide {
+  padding: 8.88vw 3vw;
+  line-height: 1.5;
+
+  p {
+    text-align: center;
+
+    + p {
+      margin-top: 1em;
+    }
+  }
+
+  .left {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .right {
+    text-align: right;
+    font-size: 20px;
+  }
+  
+  .lpButton {
+    margin-top: 10vw;
+    text-align: center;
+    img {
+      width: 88vw;
+    }
+  } 
+}
